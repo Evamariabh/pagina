@@ -1,0 +1,191 @@
+<div class="container">
+    <header class="py-3 ">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-primary text-decoration-none">
+            <nav class="d-flex">
+              <h6 class="mb-0">
+                <a href="" class="text-reset">Home</a>
+                <span>/</span>
+                <a href="." class="text-reset">Menu</a>           
+              </h6>
+            </nav>
+          </a>
+        </div>
+    </header>
+
+
+
+<div class="container-fluid about py-5">
+    <div class="container" >
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px; background-color: #43e37867;">
+            <b><h2 class="text-dark font-secondary">Nuestros Postres</h2></b>
+            <b><h1 class="display-4 font-secondary">Puras delicias</h1></b>
+        </div>
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center  text-uppercase border-inner p-4 mb-5" style="background-color: #f4a8f4;">
+                <li class="nav-item">
+                    <a class="nav-link text-dark " data-bs-toggle="pill" href="#tab-1">Pasteles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" data-bs-toggle="pill" href="#tab-2">Especialidades</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/frutas.jpg" alt="" style="width: 150px; height: 85px;" >
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$300.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;" (contextmenu)="eventoContextMenu()">
+                                    <h5 class="text-uppercase">Pastel de cumpleaños</h5>
+                                    <span>Tres leches, chocolate, fresa, diseñoo de su agrado</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/recetas1.jpg" alt="" style="width: 150px; height: 85px;" (mouseout)="eventoMouseOut()">
+                                    <h4 class="text-warnin p-2 m-0" style="background-color: #43c2ed;">$250.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Pastel de Vainilla</h5>
+                                    <span>Tres leches, Promoción ingredientes extras fresas, nueces</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/descarga.jpg" alt="" style="width: 150px; height: 85px;" (mousemove)="eventoMousemove()">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$270.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Pastel de zanahoria</h5>
+                                    <span>Personalizado, 3 leches, 1 ingrdiente extra a elegir </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/pan.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$145.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Biscocho o pan</h5>
+                                    <span>Tamano, sabor, animación e ingredientes a elegir</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/limon.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$210.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Pastel de limón</h5>
+                                    <span>Las hojas de menta, la crema chantilly y el relleno de licor de frutas</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/manzana.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$230.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Pastel de manzana</h5>
+                                    <span>3 leches, Promoción dos ingredientes extras a elegir  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/flan.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$250.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Flan Napolitano</h5>
+                                    <span>Flan Napolitano con extra cajeta y chispas de chocolate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/cap.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$110.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Cup Cakes</h5>
+                                    <span>Cup cakes, diferentes sabores y especialidades</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/crum.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$341.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Crumble de manzana</h5>
+                                    <span>crumble rellena de manzana, nuez y almendra </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/brow.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$123.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Brownies</h5>
+                                    <span>Brownies de, fresa y chocolate Promocion valida</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/pana.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$345.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Panacotta</h5>
+                                    <span>Pana Cotta rellena con extra fresas y arandanos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="../assets/img/tarta.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <h4 class="text-dark p-2 m-0" style="background-color: #43c2ed;">$534.00</h4>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start border-inner px-4" style="background-color: #a1dbe4;">
+                                    <h5 class="text-uppercase">Tartas</h5>
+                                    <span>Tartas diferentes sabores frutas de temporada</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

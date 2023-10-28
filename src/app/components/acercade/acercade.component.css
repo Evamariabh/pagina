@@ -1,0 +1,10 @@
+.fondo{
+
+    background-image: url(https://www.recetas.fitness/wp-content/uploads/2021/01/recetas-de-postres.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 28em;
+    width: 70em;
+    align-items: center;
+}
